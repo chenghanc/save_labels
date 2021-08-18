@@ -92,15 +92,15 @@ class Detect:
 
 if __name__ == '__main__':
 
-    detect = Detect(metaPath=r'/home/nechk/NECHK-Results/baby.data',
-                    configPath=r'../head-prod/v7/v7baby-da.cfg',
-                    weightPath=r'../head-prod/v7/v7baby-da_final.weights',
+    detect = Detect(metaPath=r'custom.data',
+                    configPath=r'custom.cfg',
+                    weightPath=r'custom.weights',
                     gpu_id=1)
 
     # read folder
     # getting the current directory
     print(os.getcwd())
-    image_root = r'/home/nechk/NECHK-Results/helmet2/emotion/18Photocannotbefiltered'
+    image_root = r'custom'
     save_root = r'../output'
     # changing the current directory to one with images
     os.chdir(image_root)
