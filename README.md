@@ -4,7 +4,7 @@
 
 2. Python API code is modified according to this project [gengyanlei/fire-smoke-detect-yolov4](https://github.com/gengyanlei/fire-smoke-detect-yolov4)
 
-3. `libdarknet.so` might be need to recompile on your PC
+3. Shared object library file `libdarknet.so` might be need to recompile on your PC
 
 ## Dependencies
 
